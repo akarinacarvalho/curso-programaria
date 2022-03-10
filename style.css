@@ -1,5 +1,14 @@
-body {
+body,
+h1,
+h2,
+h3,
+p,
+img,
+ul {
   margin: 0;
+}
+
+body {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #414141;
@@ -8,21 +17,56 @@ body {
 h1 {
   font-weight: 900;
   font-size: 36px;
+  padding-bottom: 30px;
 }
 
 h2 {
   font-size: 28px;
   color: #45793e;
+  padding-bottom: 25px;
 }
 
 h3 {
   font-size: 26px;
   color: #d66464;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 p {
   line-height: 1.5rem;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+img {
+  max-width: 500px;
+  padding-top: 15px;
+}
+
+.img-tabela {
+  padding-bottom: 25px;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+a {
+  text-decoration: none;
+  color: #f5d1d1;
+}
+
+a:hover {
+  color: #f0f0f0;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0;
 }
 
 .topo {
@@ -42,5 +86,9 @@ p {
 }
 
 .mulheres {
-  background-color: #414141;
+  background-color: #d66464;
+}
+
+.titulo-negativo {
+  color: #f0f0f0;
 }
