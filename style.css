@@ -49,6 +49,14 @@ img {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+li {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -70,6 +78,10 @@ a:hover {
 
 .topo {
   background-color: #f5d1d1;
+}
+
+.menu {
+  color: #d66464;
 }
 
 .infancia {
@@ -94,15 +106,4 @@ a:hover {
 
 .img-tabela {
   padding-bottom: 25px;
-}
-
-ul {
-  display: flex;
-  margin-left: auto;
-  padding-top: 20px;
-}
-
-li {
-  margin-left: auto;
-  margin-right: auto;
 }
