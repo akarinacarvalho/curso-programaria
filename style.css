@@ -19,7 +19,6 @@ body {
 h1 {
   font-weight: 900;
   font-size: 36px;
-  padding-bottom: 30px;
 }
 
 h2 {
@@ -76,12 +75,26 @@ a:hover {
   padding: 60px 0;
 }
 
+.container--menu {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 0;
+}
+
 .topo {
   background-color: #f5d1d1;
 }
 
 .menu {
   color: #d66464;
+  background-color: #f0f0f0;
+  padding: 10px 25px;
+  font-weight: 600;
+}
+
+.menu:hover {
+  color: #45793e;
 }
 
 .infancia {
