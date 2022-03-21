@@ -61,11 +61,11 @@ li {
 a {
   text-decoration: none;
   color: #f5d1d1;
+  transition: all 0.3s ease-in;
 }
 
 a:hover {
   color: #f0f0f0;
-  font-weight: 600;
 }
 
 .container {
