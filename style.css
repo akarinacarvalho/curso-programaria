@@ -129,9 +129,22 @@ a:hover {
   background-color: #d66464;
 }
 
-button{
+label {
+  color: #f0f0f0;
+  padding-right: 5px;
+}
+
+input {
+  margin-right: 25px;
+  padding: 8px 8px;
+}
+
+button {
   background: #f5d1d1;
   border: 1px solid transparent;
-  padding: 2px 20px;
-  border-radius: 3px;
+  padding: 8px 20px;
+ }
+
+ button:hover {
+  background-color: #f0f0f0;;
  }
