@@ -65,7 +65,11 @@ a {
 }
 
 a:hover {
-  color: #f0f0f0;
+  color: #d66464;
+}
+
+.a-negativo {
+  color: #414141;
 }
 
 .container {
@@ -110,7 +114,7 @@ a:hover {
 }
 
 .mulheres {
-  background-color: #d66464;
+  background-color: #f5d1d1;
 }
 
 .titulo-negativo {
@@ -120,3 +124,14 @@ a:hover {
 .img-tabela {
   padding-bottom: 25px;
 }
+
+.news {
+  background-color: #d66464;
+}
+
+button{
+  background: #f5d1d1;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+ }
